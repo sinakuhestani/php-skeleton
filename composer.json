@@ -16,8 +16,18 @@
     "type": "project",
     "readme": "README.md",
     "suggest": {
-        "monolog/monolog": "Allows more advanced logging of the application flow",
-        "ext-xml": "Needed to support XML format in class Foo"
+        "psr/cache": "Common interface for caching libraries",
+        "psr/clock": "Common interface for reading the clock",
+        "psr/container": "Common Container Interface (PHP FIG PSR-11)",
+        "psr/event-dispatcher": "Standard interfaces for event handling",
+        "psr/http-client": "Common interface for HTTP clients",
+        "psr/http-factory": "PSR-17: Common interfaces for PSR-7 HTTP message factories",
+        "psr/http-message": "Common interface for HTTP messages",
+        "psr/http-server-handler": "Common interface for HTTP server-side request handler",
+        "psr/http-server-middleware": "Common interface for HTTP server-side middleware",
+        "psr/link": "Common interfaces for HTTP links",
+        "psr/log": "Common interface for logging libraries",
+        "psr/simple-cache": "Common interfaces for simple caching"
     },
     "autoload": {
         "psr-4": {
