@@ -1,0 +1,55 @@
+{
+    "name": "sinabek/php-skeleton",
+    "authors": [
+        {
+            "name": "SinaBek",
+            "email": "me@sinabek.ir",
+            "homepage": "https://sinabek.ir",
+            "role": "Maintainer"
+        }
+    ],
+    "homepage": "https://github.com/sinabek/php-skeleton/",
+    "license": "MIT",
+    "description": "An Skeleton PHP application",
+    "keywords": ["php", "php-skeleton"],
+    "version": "1.0.0",
+    "type": "project",
+    "readme": "README.md",
+    "suggest": {
+        "monolog/monolog": "Allows more advanced logging of the application flow",
+        "ext-xml": "Needed to support XML format in class Foo"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "prefer-stable": true,
+    "config":{
+        "process-timeout": 600,
+        "allow-plugins": {},
+        "use-include-path": false,
+        "preferred-install": "dist",
+        "secure-http": true,
+        "platform":{
+            "php": "8.1"
+        },
+        "bin-compat":"auto",
+        "prepend-autoloader": true,
+        "autoloader-suffix": "composerautoload",
+        "optimize-autoloader": false,
+        "sort-packages": true,
+        "apcu-autoloader": false,
+        "vendor-dir": "vendor",
+        "bin-dir": "bin",
+        "htaccess-protect":true,
+        "platform-check": true
+    },
+    "scripts": {},
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
