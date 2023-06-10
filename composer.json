@@ -12,7 +12,7 @@
     "license": "MIT",
     "description": "An Skeleton PHP application",
     "keywords": ["php", "php-skeleton"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "project",
     "readme": "README.md",
     "suggest": {
